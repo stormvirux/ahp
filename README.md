@@ -32,7 +32,7 @@ There is also a Shiny app that complements that package. You can try it out at h
 
 ```{code = R} 
 
-devtools::install_github("gluc/ahp", build_vignettes = TRUE)
+devtools::install_github("stormvirux/ahp", build_vignettes = TRUE)
 vignette("car-example", package = "ahp")
 vignette("multiple-decisionmakers", package = "ahp")
 
