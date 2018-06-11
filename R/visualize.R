@@ -18,7 +18,8 @@ Visualize <- function(ahpTree,
                       alternativeEdgesStyle = list(dir = "none", color = "grey35", penwidth = 2)
                  ) {
   graph <- GetGraph(ahpTree, criteriaNodesStyle, alternativeNodesStyle, criteriaEdgesStyle, alternativeEdgesStyle)
-  DiagrammeR::render_graph(output = "pdf")
+  export_graph("random_graph.pdf")
+  DiagrammeR::render_graph(graph)
 }
   
 
